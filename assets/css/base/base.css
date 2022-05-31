@@ -1,0 +1,6 @@
+@import url(_variaveis.css);
+@import url(_reset.css);
+
+body {
+    font-family: var(--familia-corpo);
+}
