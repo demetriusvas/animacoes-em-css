@@ -4,3 +4,40 @@
 body {
     font-family: var(--familia-corpo);
 }
+
+.container{
+    padding-left: 10rem;
+    padding-right: 10rem;
+}
+
+.titulo {
+    font-family: var(--familia-corpo);
+    font-size: var(--tamanho-titulo);
+    font-weight: var(--peso-titulo-destaque);
+
+    margin-top: .75rem;
+    margin-bottom: .75rem;
+}
+
+.titulo-destaque {
+    font-family: var(--familia-titulo-destaque);
+    color: var(--preto);
+    font-size: var(--tamanho-titulo-destaque);
+    font-weight: var(--peso-titulo-destaque);
+    display: block;
+
+    margin-top: .75rem;
+    margin-bottom: .75rem;
+}
+
+.alinhamento--esquerda {
+    text-align: left;
+}
+
+.alinhamento--meio {
+    text-align: center;
+}
+
+.texto {
+    line-height: 26px;
+}
