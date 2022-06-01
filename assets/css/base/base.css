@@ -41,3 +41,34 @@ body {
 .texto {
     line-height: 26px;
 }
+
+.itens{
+    display: flex;
+    justify-content: space-around;
+}
+
+.item-imagem{
+    border: 1px solid #000;
+    box-shadow: 5px 5px 5px #000;
+}
+
+.item-descricao{
+    align-self: center;
+}
+
+.text-focus-in {
+    animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+}
+
+@keyframes text-focus-in {
+    0% {
+        -webkit-filter: blur(12px);
+        filter: blur(12px);
+        opacity: 0;
+    }
+    100% {
+        -webkit-filter: blur(0px);
+            filter: blur(0px);
+            opacity: 1;
+    }
+}
