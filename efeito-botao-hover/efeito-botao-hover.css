@@ -1,0 +1,56 @@
+.container2 {
+    position: relative;
+    padding: 5rem 1rem 5rem 45rem;
+}
+
+.container2 a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 190px;
+    height: 45px;
+    text-decoration: none;
+    color: #FFF;
+    background: #12bcff;
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    overflow: hidden;
+    font-family: sans-serif;
+    border-radius: 2px;
+}
+
+span {
+    position: relative;
+    display: block;
+    transition: .3s ease;
+}
+
+span::before {
+    content: attr(data);
+    position: absolute;
+    transform: translateY(40px);
+}
+
+.container2:hover span{
+    transform: translateY(-40px);
+}
+
+.container2 span:nth-child(1){
+    transition-delay: .05s;
+}
+
+.container2 span:nth-child(2){
+    transition-delay: .15s;
+}
+
+.container2 span:nth-child(3){
+    transition-delay: .25s;
+}
+
+.container2 span:nth-child(4){
+    transition-delay: .35s;
+}
+
+.container2 span:nth-child(5){
+    transition-delay: .45s;
+}
