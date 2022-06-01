@@ -1,8 +1,10 @@
 .itens{
     display: flex;
     justify-content: space-around;
-    padding-left: 30rem;
+    /* padding-left: 30rem;
     padding-right: 30rem;
+    padding-top: 2rem; */
+    padding: 2rem 30rem 2rem;
 }
 
 .item-imagem{
