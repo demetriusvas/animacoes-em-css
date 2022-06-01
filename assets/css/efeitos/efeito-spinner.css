@@ -1,0 +1,16 @@
+.efeito-spinner {
+    width: 48px;
+    height: 48px;
+    border-radius: 8px;
+    background-color: #121212;
+    animation: slide 2s infinite;
+}
+
+@keyframes slide{
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}

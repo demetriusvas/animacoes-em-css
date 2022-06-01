@@ -10,6 +10,10 @@ body {
     padding-right: 10rem;
 }
 
+hr{
+    width: 50%;
+}
+
 .titulo {
     font-family: var(--familia-corpo);
     font-size: var(--tamanho-titulo);
