@@ -1,0 +1,15 @@
+.itens{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 30rem;
+    padding-right: 30rem;
+}
+
+.item-imagem{
+    border: 1px solid #000;
+    box-shadow: 5px 5px 5px #000;
+}
+
+.item-descricao{
+    align-self: center;
+}
