@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100');
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.title{
+  margin: 0 auto;
+  color: white; 
+  font-family: var(--familia-corpo);
+  font-size: 3rem;
+}
+
+.container2 {
+  margin: 0 auto;
+  width: 1200px;
+  height: 85vh;  
+  display: flex;
+  align-items: center;
+  text-align: center;
+  animation: colors 7s infinite;
+}
+
+@keyframes colors {
+  0% {
+    background-color: #FF0000;
+  }
+  16.66% {
+    background-color: #FF7F00;
+  }
+  33.33% {
+    background-color: #FFFF00;
+  }
+  49.99% {
+    background-color: #00FF00;
+  }
+  66.66% {
+    background-color: #0000FF;
+  }
+  83.33% {
+    background-color: #4B0082;
+  }
+  100% {
+    background-color: #8F00FF;
+  }
+}
